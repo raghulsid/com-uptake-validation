@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.uptake.test.HomePageTest" duration-ms="31725" started-at="2018-01-15T02:55:11Z" finished-at="2018-01-15T02:55:43Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="31725" started-at="2018-01-15T02:55:11Z" finished-at="2018-01-15T02:55:43Z">
+      <class name="com.uptake.test.HomePageTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.uptake.test.HomePageTest@215be6bb]" name="beforeTest" is-config="true" duration-ms="102" started-at="2018-01-14T20:55:11Z" finished-at="2018-01-14T20:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="homePageTest(java.lang.String)[pri:0, instance:com.uptake.test.HomePageTest@215be6bb]" name="homePageTest" duration-ms="15524" started-at="2018-01-14T20:55:11Z" data-provider="browsers" finished-at="2018-01-14T20:55:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.uptake.test.HomePageTest@215be6bb]" name="afterMethod" is-config="true" duration-ms="1520" started-at="2018-01-14T20:55:27Z" finished-at="2018-01-14T20:55:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="homePageTest(java.lang.String)[pri:0, instance:com.uptake.test.HomePageTest@215be6bb]" name="homePageTest" duration-ms="12272" started-at="2018-01-14T20:55:28Z" data-provider="browsers" finished-at="2018-01-14T20:55:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.uptake.test.HomePageTest@215be6bb]" name="afterMethod" is-config="true" duration-ms="2038" started-at="2018-01-14T20:55:40Z" finished-at="2018-01-14T20:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.uptake.test.HomePageTest@215be6bb]" name="afterTest" is-config="true" duration-ms="254" started-at="2018-01-14T20:55:42Z" finished-at="2018-01-14T20:55:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.uptake.test.HomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.uptake.test.HomePageTest -->
+</testng-results>
